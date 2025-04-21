@@ -39,35 +39,36 @@ Component	Purpose
 7. Emergency Command Overrides
 
 📑 Project Workflow
-📌 Phase 1: Basic Drone Assembly & Manual Control
+
+Phase 1: Basic Drone Assembly & Manual Control
 Assemble quadcopter frame, motors, ESCs, flight controller.
 Calibrate hardware via Mission Planner or QGroundControl.
 Establish manual control with RC transmitter.
 
-📌 Phase 2: Integrating Obstacle Detection
+Phase 2: Integrating Obstacle Detection
 Mount ultrasonic sensors (front, left, right).
 Implement distance monitoring via Arduino or onboard companion computer.
 Program avoidance algorithm:
 If object detected within threshold (e.g., 50cm), reroute flight path.
 
-📌 Phase 3: Computer Vision Integration
+Phase 3: Computer Vision Integration
 Attach a camera module.
 Use OpenCV to detect obstacles (walls, trees, people) via image processing.
 Combine sensor data + vision for enhanced obstacle detection.
 
-📌 Phase 4: Autonomous Navigation
+Phase 4: Autonomous Navigation
 Integrate GPS waypoints and automated missions using Mission Planner.
 Implement dynamic path adjustment using sensor and vision inputs.
 
-📌 Phase 5: Payload Delivery Mechanism
+Phase 5: Payload Delivery Mechanism
 Design and attach a secure payload dropping/releasing mechanism.
 Test weight endurance and balance adjustment.
 
-📌 Phase 6: Live Video Feed & Telemetry
+Phase 6: Live Video Feed & Telemetry
 Set up FPV camera with video transmitter.
 Use telemetry modules to stream live data (altitude, battery, GPS, sensor inputs).
 
-📌 Phase 7: AI-based Survivor Detection (Advanced)
+Phase 7: AI-based Survivor Detection (Advanced)
 Train a CNN model (YOLO, MobileNet-SSD, or custom VQ-VAE for anomaly detection).
 Deploy model on a Jetson Nano / Raspberry Pi for real-time detection.
 Highlight potential survivors or hazards on the live feed.
