@@ -1,5 +1,5 @@
 📖 Overview
-In modern emergency response scenarios — whether it's natural disasters, fire outbreaks, or medical emergencies — rapid assessment and assistance can save lives. This project presents a drone-based system equipped with real-time obstacle avoidance capabilities, designed specifically for emergency services operations. Using an integration of sensors, embedded systems, and advanced algorithms, this drone autonomously navigates complex environments (urban areas, forests, disaster zones) while avoiding obstacles to deliver essential supplies, provide visual data, or assist in search and rescue missions.
+In modern emergency response scenarios whether it's natural disasters, fire outbreaks, or medical emergencies rapid assessment and assistance can save lives. This project presents a drone-based system equipped with real-time obstacle avoidance capabilities, designed specifically for emergency services operations. Using an integration of sensors, embedded systems, and advanced algorithms, this drone autonomously navigates complex environments (urban areas, forests, disaster zones) while avoiding obstacles to deliver essential supplies, provide visual data, or assist in search and rescue missions.
 
 🎯 Objectives
 1. Design and develop a multi-rotor drone capable of autonomous flight with obstacle avoidance.
